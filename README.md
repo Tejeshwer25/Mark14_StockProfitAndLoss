@@ -7,4 +7,4 @@
  5. Optionally, you can also guess whether you are making loss or profit. 
  
  
-![Working Preview](http://url/to/img.png)
+![Working Preview](https://raw.githubusercontent.com/Tejeshwer25/Mark14_StockProfitAndLoss/main/image.png)
