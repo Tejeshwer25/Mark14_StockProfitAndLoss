@@ -1,4 +1,7 @@
 # Mark14_StockProfitAndLoss
+
+Working Link: https://tejeshwer25.github.io/Mark14_StockProfitAndLoss/
+
  App to calculate your profit/loss in stock bought, using the initial price, number of stocks bought, and the current price of the stocks.
  1. Enter the price at which you bought the stock.
  2. Enter the number of stocks bought. 
