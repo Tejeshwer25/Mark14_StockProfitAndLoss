@@ -31,7 +31,6 @@ header {
 }
 
 main {
-  overflow-y: scroll;
   margin: 2rem 0rem;
   text-align: center;
 }
