@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Profit & Loss Calculator | Stock</title>
+</head>
+<body>
+    <header>
+        <h1>Stock Profit & Loss Calculator</h1>
+    </header>
+
+    <main>
+        <form>
+            <label>
+                <p>Initial Price:</p>
+                <input type="number" id="initial-price" placeholder="Enter Initial Price">
+            </label>
+
+            <label>
+                <p>Quantity of Stocks:</p>
+                <input type="number" id="quantity" placeholder="Enter Quantity">
+            </label>
+
+            <label>
+                <p>Current Price:</p>
+                <input type="number" id="current-price" placeholder="Enter Current Price">
+            </label>
+
+            <p>What do you think it is? 🤔</p>
+            <label>
+                <input type="radio" id="profit" name="profit/loss" value="profit" checked>
+                <span>Profit</span>
+            </label>
+            <label>
+                <input type="radio" id="loss" name="profit/loss" value="loss">
+                <span>Loss</span>
+            </label>
+
+            <button type="submit" id="submit-btn">Calculate Profit / Loss</button>
+        </form>
+
+        <div id="finalResult"></div>
+    </main>
+
+    <footer>
+        <p>Made with 🧡 by <a href="https://tejeshwer-singh.netlify.app">Tejeshwer</a></p>
+    </footer>
+
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
